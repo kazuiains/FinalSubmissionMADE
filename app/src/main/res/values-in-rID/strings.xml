@@ -1,0 +1,71 @@
+<resources>
+    <string name="idLanguage">id-ID</string>
+    <string name="app_name">Catalogue Movie</string>
+    <string name="description_poster">Ini adalah poster</string>
+    <string name="description_background_poster">ini adalah background dari poster</string>
+
+    <string name="title_text">Judul</string>
+    <string name="rate_text">Rate</string>
+    <string name="release_text">Rilis</string>
+    <string name="overview_text">Kilasan Singkat</string>
+    <string name="language_text">Bahasa</string>
+    <string name="information_text">Informasi</string>
+    <string name="status_text">Setatus</string>
+    <string name="genre_text">Genre</string>
+    <string name="short_synopsis_about">Sinopsis pendek tentang…</string>
+    <string name="a_little_information_about">Sedikit informasi tentang…</string>
+
+    <string name="tab1">Movie</string>
+    <string name="tab2">TV Series</string>
+
+    <string name="error_ms">error: koneksi internet atau sesuatu.</string>
+    <string name="head_error">Error!</string>
+    <string name="body_error">Tolong periksa kembali jaringan internet. lalu kembali ke home untuk reload.</string>
+    <string name="info">Info</string>
+    <string name="body_favorite">Tidak punya favorit</string>
+    <string name="body_not_found">Yang anda cari tidak ditemukan</string>
+    <string name="option1">not_found</string>
+    <string name="option2">favorite</string>
+    <string name="option3">error</string>
+
+    <string name="chg_language">Ubah Bahasa</string>
+
+    <string name="favorite">Kesukaan</string>
+
+    <string name="name_del">Hapus Semua</string>
+    <string name="name_del_all_movie">Hapus Semua Movie</string>
+    <string name="name_del_all_tv_series">Hapus Semua TV Series</string>
+
+    <string name="appwidget_text">Daftar Favorite</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="reminder">Pengingat Harian</string>
+    <string name="reminder_movie">Pengingat Movie</string>
+    <string name="txt_notification">Notifikasi</string>
+    <string name="txt_search">Pencarian</string>
+    <string name="txt_language">Bahasa</string>
+
+    <string name="summary_reminder">Ingatkan saya untuk membuka app</string>
+    <string name="summary_reminder_movie">Ingatkan saya ketika Movie dirilis</string>
+    <string name="summary_language">Pengaturan Bahasa Bawaan</string>
+    <string name="summary_movie">Cari Movie</string>
+    <string name="summary_series">Cari Tv Series</string>
+
+    <string name="key_day_reminder">day_reminder</string>
+    <string name="key_movie_reminder">movie_reminder</string>
+    <string name="key_language">language_setting</string>
+    <string name="key_movie">search_movie</string>
+    <string name="key_series">search_tv</string>
+
+    <string name="title_daily_reminder">Ohayou Sekai Selamat Pagi Dunia!</string>
+    <string name="description_daily_reminder">Aku merindukanmu Senpai ^v^</string>
+    <string name="title_release_reminder">Released</string>
+    <string name="description_release_reminder">Cepat ke sini Senpai!</string>
+
+    <string name="text_search">Cari…</string>
+    <string name="filter_movie">Movie</string>
+    <string name="filter_tv_series">Tv Series</string>
+    <string name="filter_movie_text">Movie</string>
+    <string name="filter_tv_text">Tv Series</string>
+
+</resources>

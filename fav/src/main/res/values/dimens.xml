@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--width and height -->
+    <dimen name="w_poster">100dp</dimen>
+    <dimen name="h_poster">150dp</dimen>
+    <dimen name="w_rate">25dp</dimen>
+    <dimen name="h_rate">30dp</dimen>
+    <dimen name="h_title">75dp</dimen>
+
+    <!--padding, margin, text size-->
+    <dimen name="v0dp">0dp</dimen>
+    <dimen name="v2dp">2dp</dimen>
+    <dimen name="v4dp">4dp</dimen>
+    <dimen name="v5dp">5dp</dimen>
+    <dimen name="v8dp">8dp</dimen>
+    <dimen name="v10dp">10dp</dimen>
+    <dimen name="v15dp">15dp</dimen>
+    <dimen name="v20dp">20dp</dimen>
+    <dimen name="v70dp">70dp</dimen>
+    <dimen name="tv11sp">11sp</dimen>
+    <dimen name="tv14sp">14sp</dimen>
+    <dimen name="tv15sp">15sp</dimen>
+    <dimen name="tv20sp">20sp</dimen>
+    <dimen name="tv22sp">22sp</dimen>
+    <dimen name="tv24sp">24sp</dimen>
+    <dimen name="tv30sp">30sp</dimen>
+
+    <!--detail activity-->
+    <dimen name="h_expanded">350dp</dimen>
+    <dimen name="tv25sp">25sp</dimen>
+    <dimen name="tv18sp">18sp</dimen>
+    <dimen name="v200dp">200dp</dimen>
+    <dimen name="v50dp">50dp</dimen>
+    <dimen name="v30dp">30dp</dimen>
+    <dimen name="v90dp">90dp</dimen>
+    <dimen name="v80dp">80dp</dimen>
+    <dimen name="v25dp">25dp</dimen>
+    <dimen name="v3dp">3dp</dimen>
+    <dimen name="tv12sp">12sp</dimen>
+    <dimen name="v58dp">58dp</dimen>
+    <dimen name="tv10sp">10sp</dimen>
+
+    <!--
+Refer to App Widget Documentation for margin information
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+    -->
+    <dimen name="widget_margin">8dp</dimen>
+
+</resources>

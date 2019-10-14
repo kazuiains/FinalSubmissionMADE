@@ -1,0 +1,138 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+
+    <!-- Start HeaderTextStyle -->
+
+    <style name="TextHeaderTop">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_marginTop">@dimen/v15dp</item>
+        <item name="android:paddingStart">@dimen/v15dp</item>
+        <item name="android:paddingEnd">@dimen/v15dp</item>
+        <item name="android:paddingTop">@dimen/v10dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/tv25sp</item>
+        <item name="android:textColor">@color/whiteColor</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextHeaderBottom">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/v15dp</item>
+        <item name="android:paddingEnd">@dimen/v15dp</item>
+        <item name="android:paddingBottom">@dimen/v10dp</item>
+        <item name="android:background">@color/colorPrimary</item>
+        <item name="android:textSize">@dimen/tv18sp</item>
+        <item name="android:textColor">@color/whiteColor</item>
+    </style>
+
+    <style name="TriangleBackground">
+        <item name="android:layout_width">@dimen/v30dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/triangle</item>
+    </style>
+
+    <!-- End HeaderTextStyle -->
+
+    <!-- Start ValueTextStyle -->
+
+    <style name="TextValueSingle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/v15dp</item>
+        <item name="android:paddingEnd">@dimen/v15dp</item>
+        <item name="android:paddingTop">@dimen/v10dp</item>
+        <item name="android:paddingBottom">@dimen/v10dp</item>
+        <item name="android:background">@color/whiteColor</item>
+        <item name="android:textSize">@dimen/tv15sp</item>
+        <item name="android:textColor">@color/blackColor</item>
+        <item name="android:minLines">1</item>
+    </style>
+
+    <style name="TextValueVerticalHorizontalLeft">
+        <item name="android:layout_width">@dimen/v0dp</item>
+        <item name="android:layout_height">@dimen/v0dp</item>
+        <item name="android:paddingStart">@dimen/v15dp</item>
+        <item name="android:paddingEnd">@dimen/v5dp</item>
+        <item name="android:background">@color/whiteColor</item>
+        <item name="android:textColor">@color/colorPrimary</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:minLines">1</item>
+        <item name="android:textSize">@dimen/tv15sp</item>
+    </style>
+
+    <style name="TextValueVerticalHorizontalLeft.Top">
+        <item name="android:paddingTop">@dimen/v10dp</item>
+        <item name="android:paddingBottom">@dimen/v5dp</item>
+    </style>
+
+    <style name="TextValueVerticalHorizontalLeft.Center">
+        <item name="android:paddingTop">@dimen/v5dp</item>
+        <item name="android:paddingBottom">@dimen/v5dp</item>
+    </style>
+
+    <style name="TextValueVerticalHorizontalLeft.Bottom">
+        <item name="android:paddingTop">@dimen/v5dp</item>
+        <item name="android:paddingBottom">@dimen/v10dp</item>
+    </style>
+
+    <style name="TextValueVerticalHorizontalRight">
+        <item name="android:layout_width">@dimen/v0dp</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingStart">@dimen/v5dp</item>
+        <item name="android:paddingEnd">@dimen/v15dp</item>
+        <item name="android:background">@color/whiteColor</item>
+        <item name="android:textColor">@color/blackColor</item>
+        <item name="android:minLines">1</item>
+        <item name="android:textSize">@dimen/tv15sp</item>
+    </style>
+
+    <style name="TextValueVerticalHorizontalRight.Top">
+        <item name="android:paddingTop">@dimen/v10dp</item>
+        <item name="android:paddingBottom">@dimen/v5dp</item>
+    </style>
+
+    <style name="TextValueVerticalHorizontalRight.Center">
+        <item name="android:paddingTop">@dimen/v5dp</item>
+        <item name="android:paddingBottom">@dimen/v5dp</item>
+    </style>
+
+    <style name="TextValueVerticalHorizontalRight.Bottom">
+        <item name="android:paddingTop">@dimen/v5dp</item>
+        <item name="android:paddingBottom">@dimen/v10dp</item>
+    </style>
+
+    <!-- End ValueTextStyle -->
+
+    <style name="HeadError">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">@dimen/v20dp</item>
+        <item name="android:paddingLeft">@dimen/v20dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/whiteColor</item>
+        <item name="android:textSize">@dimen/tv30sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="BodyError">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:paddingRight">@dimen/v20dp</item>
+        <item name="android:paddingLeft">@dimen/v20dp</item>
+        <item name="android:textAlignment">center</item>
+        <item name="android:textColor">@color/whiteColor</item>
+        <item name="android:textSize">@dimen/tv20sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+</resources>

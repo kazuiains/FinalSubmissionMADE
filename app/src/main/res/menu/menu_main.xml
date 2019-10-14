@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <group
+        android:id="@+id/itmList"
+        android:visible="false">
+        <item
+            android:id="@+id/delete_all"
+            android:title="@string/name_del"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/delete_all_movie"
+            android:title="@string/name_del_all_movie"
+            app:showAsAction="never" />
+        <item
+            android:id="@+id/delete_all_tv"
+            android:title="@string/name_del_all_tv_series"
+            app:showAsAction="never" />
+    </group>
+    <item
+        android:id="@+id/itmSearch"
+        android:icon="@drawable/search"
+        app:showAsAction="ifRoom"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/itmFavorite"
+        android:icon="@drawable/favorite_no_active"
+        app:showAsAction="ifRoom"
+        tools:ignore="MenuTitle" />
+    <item
+        android:id="@+id/itmSetting"
+        android:icon="@drawable/setting"
+        app:showAsAction="ifRoom"
+        tools:ignore="MenuTitle" />
+</menu>

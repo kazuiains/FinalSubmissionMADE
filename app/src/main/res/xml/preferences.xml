@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:iconSpaceReserved="false">
+
+    <androidx.preference.PreferenceCategory
+        android:title="@string/txt_notification"
+        app:iconSpaceReserved="false">
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_day_reminder"
+            android:summary="@string/summary_reminder"
+            android:title="@string/reminder"
+            app:iconSpaceReserved="false" />
+
+        <SwitchPreference
+            android:defaultValue="false"
+            android:key="@string/key_movie_reminder"
+            android:summary="@string/summary_reminder_movie"
+            android:title="@string/reminder_movie"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:title="@string/txt_search"
+        app:iconSpaceReserved="false">
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="@string/key_movie"
+            android:summary="@string/summary_movie"
+            android:title="@string/tab1"
+            app:iconSpaceReserved="false" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="@string/key_series"
+            android:summary="@string/summary_series"
+            android:title="@string/tab2"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+
+    <androidx.preference.PreferenceCategory
+        android:title="@string/txt_language"
+        app:iconSpaceReserved="false">
+        <Preference
+            android:key="@string/key_language"
+            android:summary="@string/summary_language"
+            android:title="@string/language_text"
+            app:iconSpaceReserved="false" />
+
+    </androidx.preference.PreferenceCategory>
+
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.muhammad_adi_yusuf.moviecatalogue">
+
+    <permission
+        android:name="com.muhammad_adi_yusuf.moviecatalogue.READ_DATABASE"
+        android:protectionLevel="normal" />
+    <permission
+        android:name="com.muhammad_adi_yusuf.moviecatalogue.WRITE_DATABASE"
+        android:protectionLevel="normal" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+
+        <provider
+            android:name=".model.localDatabase.provider.FavoriteProvider"
+            android:authorities="com.muhammad_adi_yusuf.moviecatalogue"
+            android:enabled="true"
+            android:exported="true"
+            android:readPermission="com.muhammad_adi_yusuf.moviecatalogue.READ_DATABASE"
+            android:writePermission="com.muhammad_adi_yusuf.moviecatalogue.WRITE_DATABASE">
+
+        </provider>
+
+        <activity android:name=".view.searchPage.SearchActivity" />
+        <activity android:name=".view.settingPage.SettingActivity" />
+        <activity android:name=".view.favoritePage.FavoriteActivity" />
+        <activity android:name=".view.detailPage.DetailActivity" />
+        <activity android:name=".view.mainPage.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <receiver android:name=".widget.FavoriteWidget">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/favorite_widget_info" />
+        </receiver>
+
+        <receiver
+            android:name=".view.helper.ReminderMovieCatalogue"
+            android:enabled="true"
+            android:exported="true" />
+        <service
+            android:name="com.muhammad_adi_yusuf.moviecatalogue.widget.FavoriteWidgetService"
+            android:permission="android.permission.BIND_REMOTEVIEWS" />
+    </application>
+
+</manifest>

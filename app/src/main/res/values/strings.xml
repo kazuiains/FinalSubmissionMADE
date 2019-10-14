@@ -1,0 +1,72 @@
+<resources>
+    <string name="idLanguage">en-US</string>
+    <string name="app_name">Catalogue Movie</string>
+    <string name="description_poster">This is a poster item</string>
+    <string name="description_background_poster">This is the background of the poster item</string>
+
+    <string name="title_text">Title</string>
+    <string name="rate_text">Rate</string>
+    <string name="release_text">Release</string>
+    <string name="overview_text">Overview</string>
+    <string name="language_text">Language</string>
+    <string name="information_text">Information</string>
+    <string name="status_text">Status</string>
+    <string name="genre_text">Genre</string>
+    <string name="short_synopsis_about">Short synopsis about…</string>
+    <string name="a_little_information_about">A little information about…</string>
+
+    <string name="tab1">Movie</string>
+    <string name="tab2">TV Series</string>
+
+    <string name="error_ms">error: internet connection or something.</string>
+    <string name="head_error">Error!</string>
+    <string name="body_error">Please check the internet first. then return to home to reload.</string>
+    <string name="info">Info</string>
+    <string name="body_favorite">Don\'t have a favorite</string>
+    <string name="body_not_found">Your search was not found</string>
+    <string name="option1">not_found</string>
+    <string name="option2">favorite</string>
+    <string name="option3">error</string>
+
+    <string name="chg_language">Change Language</string>
+
+    <string name="favorite">Favorite</string>
+
+    <string name="name_del">Delete All</string>
+    <string name="name_del_all_movie">Delete All Movie</string>
+    <string name="name_del_all_tv_series">Delete All TV Series</string>
+
+    <string name="appwidget_text">Favorite List</string>
+    <string name="add_widget">Add widget</string>
+
+    <string name="reminder">Daily Reminder</string>
+    <string name="reminder_movie">Movie Reminder</string>
+    <string name="txt_notification">Notification</string>
+    <string name="txt_search">Search</string>
+    <string name="txt_language">Language</string>
+
+    <string name="summary_reminder">Remind me to open the app</string>
+    <string name="summary_reminder_movie">Remind me when the Movie is released</string>
+    <string name="summary_language">Default language setting</string>
+    <string name="summary_movie">Search for Movie</string>
+    <string name="summary_series">Search for Tv Series</string>
+
+    <string name="key_day_reminder">day_reminder</string>
+    <string name="key_movie_reminder">movie_reminder</string>
+    <string name="key_language">language_setting</string>
+    <string name="key_movie">search_movie</string>
+    <string name="key_series">search_tv</string>
+
+    <string name="title_daily_reminder">Ohayou Sekai Good Morning World!</string>
+    <string name="description_daily_reminder">I miss you Senpai ^v^</string>
+    <string name="title_release_reminder">Released</string>
+    <string name="description_release_reminder">Come here Senpai!</string>
+
+    <string name="text_search">Search…</string>
+    <string name="filter_movie">Movie</string>
+    <string name="filter_tv_series">Tv Series</string>
+    <string name="filter_movie_text">Movie</string>
+    <string name="filter_tv_text">Tv Series</string>
+
+
+</resources>
